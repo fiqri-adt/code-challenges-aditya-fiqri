@@ -1,0 +1,18 @@
+{
+  "name": "fauzi-code-challenges",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Fauzi full-stack coding challenges",
+  "scripts": {
+    "prettier": "prettier \"*.{ts,js,json,yml,md}\" \"packages/**/*\"",
+    "format": "npm run prettier -- --write",
+    "format:check": "npm run prettier -- --check"
+  },
+  "author": "Zi",
+  "license": "ISC",
+  "workspaces": [
+    "packages/common",
+    "packages/api",
+    "packages/webapp"
+  ]
+}

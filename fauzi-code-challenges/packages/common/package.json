@@ -1,0 +1,17 @@
+{
+  "name": "common",
+  "version": "0.0.1",
+  "description": "Common libraries",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zi",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.10.6",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.172"
+  }
+}
